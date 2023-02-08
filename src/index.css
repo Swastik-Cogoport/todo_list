@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    /* background: radial-gradient(circle at 10% 20%, rgb(0,93,133) 0%, rgb(0,181,149) 90%); */
+    background-image: url('https://cdn.statically.io/img/codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg?f=webp&w=1440');
+    background-size: cover;
+    background-size: 2000px;
+    background-position-x: center;
+    background-position-y: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    border-radius: 15px;
+    width:450px;
+    height:600px;
+    padding:15px;
+    border: 2px solid black;
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.search{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.add-container{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-container input{
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.add-button{
+    width: 8em;
+    height: 3em;
+    font-weight: bold;
+    background-color: #33b89b;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.add-button:hover{
+    scale: 1.02;
+}
+
+/* .todo-container{
+    background: red;
+} */
+
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    height: 50;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(236,229,229);
+    border-radius: 10px;
+}
+
+input[type=checkbox]{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.todo-item span{
+    width: 50%;
+}
+
+.category-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* background: red; */
+}
+
+.category-container input{
+    width: 11em;
+    height: 2em;
+    font-weight: bold;
+    background-color: #33b89b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-container select{
+    width: max-content;
+    height: 2em;
+    font-weight: bold;
+    background-color: #33b89b;
+    cursor: pointer;
+    border-radius: 5px;
+    /* margin-bottom: 30px; */
+}
+
+.delete-button{
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.delete-button:hover{
+    scale: 1.03;
+}
+.category, .date{
+    font-style: italic;
+}
+
+.todo-details{
+    width: 70%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.search-and-filter{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filters span{
+    margin-right: 10px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.filters input{
+    width: 10em;
+    height: 2em;
+    font-weight: bold;
+    background-color: #33b89b;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.filters select{
+    width: max-content;
+    height: 2em;
+    font-weight: bold;
+    background-color: #33b89b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
